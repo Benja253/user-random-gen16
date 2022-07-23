@@ -1,0 +1,44 @@
+h2, p {
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+body {
+  margin: 0;
+}
+.App {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px #0005;
+  overflow: hidden;
+  width: 300px;
+}
+.card__img {
+  width: 100%;
+}
+.card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.card__btn {
+  color: white;
+  border: 0;
+  width: 50px;
+  aspect-ratio: 1;
+  font-size: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px #000;
+  transition: box-shadow 200ms ease;
+}
+.card__btn:hover {
+  box-shadow: 0 0 5px #000;
+  transition: box-shadow 200ms ease;
+}
